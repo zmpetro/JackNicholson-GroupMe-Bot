@@ -19,9 +19,9 @@ Installation
 
 1. Create a GroupMe bot and add it to a group following the [GroupMe documentation](https://dev.groupme.com/tutorials/bots). `Callback URL` does not need to be specified.
 
-2. Download `jack.c` and the 3 data files and add your bot ID found on the GroupMe website into `jack.c` where it says `insert bot ID here`.
+2. Make sure [cURL](https://curl.haxx.se/download.html) is installed.
 
-3. Make sure [cURL](https://curl.haxx.se/download.html) is installed.
+3. Download `jack.c` and the 3 data files and add your bot ID found on the GroupMe website into `jack.c` where it says `insert bot ID here`.
 
 4. Compile `jack.c`.
 
@@ -35,5 +35,5 @@ Example
 -------
 
 ![alt screen1](https://raw.githubusercontent.com/zmpetro/JackNicholson-GroupMe-Bot/master/examples/screen1.png)
-![alt screen2](https://raw.githubusercontent.com/zmpetro/JackNicholson-GroupMe-Bot/master/examples/screen2.png)
 
+![alt screen2](https://raw.githubusercontent.com/zmpetro/JackNicholson-GroupMe-Bot/master/examples/screen2.png)

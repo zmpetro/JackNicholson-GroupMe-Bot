@@ -35,7 +35,7 @@ int main(){
 
     int i, len = strlen(quote);
 
-    for(i = 1; i <= len; ++i){
+    for(i = 1; i <= len; ++i){ // misc string formatting
         quote[i-1] = quote[i];
     }
    
@@ -47,7 +47,7 @@ int main(){
     return 0;
 }
 
-int getNum(){ 
+int getNum(){ // random number generator function
     int i;
     srand(time(NULL));
     int temp = (rand() % 56) + 1;
@@ -64,7 +64,7 @@ int getNum(){
 
     fclose(fp3);
 
-    int nothingLeft = 1;
+    int nothingLeft = 1; // clears previous.dat if full
     for(i = 1; i < 57; ++i){
         if(readNums[i] == 0){
             nothingLeft = 0;
@@ -109,11 +109,11 @@ int getNum(){
     return finalNum;
 }
 
-void sendMessage(char *message, int num){
+void sendMessage(char *message, int num){ // send HTTP POST using cURL
     FILE *fp2;
     fp2 = fopen("message.dat", "w"); 
     fputs("{\n", fp2);
-    fputs("\"bot_id\" : \"insert groupme bot_id here\",\n", fp2);
+    fputs("\"bot_id\" : \"insert bot ID here\",\n", fp2);
     if(num < 30){
         fputs("\"text\" : \"", fp2);
         fputs(message, fp2);

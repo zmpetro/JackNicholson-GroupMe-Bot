@@ -21,7 +21,7 @@ Installation
 
 2. Make sure [cURL](https://curl.haxx.se/download.html) is installed.
 
-3. Clone the repository. Add your bot ID found on [https://dev.groupme.com/bots](https://dev.groupme.com/bots] into `jack.c` where it says `insert bot ID here`.
+3. Clone the repository. Add your bot ID found on [https://dev.groupme.com/bots](https://dev.groupme.com/bots) into `jack.c` where it says `insert bot ID here`.
 
 4. Compile `jack.c`.
 

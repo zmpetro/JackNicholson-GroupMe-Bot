@@ -30,6 +30,8 @@ Usage
 
 * Run the compiled executable file.
 
+* Optionally add a crontab entry with `crontab -e` to run the bot at a certain time each day.
+
 Example
 -------
 
